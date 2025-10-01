@@ -82,7 +82,7 @@ See [Remote functions](/docs/kit/remote-functions#form) for full documentation.
 
 ```dts
 function form<Output>(
-	fn: () => MaybePromise<Output>
+	fn: () => Output
 ): RemoteForm<void, Output>;
 ```
 
